@@ -37,6 +37,7 @@ public class HangmanGame {
 		}
 		if (incorrectGuessesRemaining == 0) System.out.println("You lose, the correct answer was " + wordToGuess);
 		else System.out.println("You win");
+		scanner.close();
 		
 	}
 	
